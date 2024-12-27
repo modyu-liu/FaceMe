@@ -22,7 +22,7 @@ This is the official PyTorch codes for the paper:
 
 ## :boom: News
 
-- **2024.12.23** Create this repo and release related code of our paper.
+- **2024.12.27** Create this repo and release related code of our paper.
 
 ## :runner: TODO
 - [ ] Launch an online demo
