@@ -189,6 +189,9 @@ accelerate launch train.py \
     --num_train_epochs 100 \
     --checkpoint_steps 10000 \
 ```
+## 📜 License
+
+This project is licensed under the Pi-Lab License 1.0 - see the LICENSE file for details.
 
 ## :book: Citation
 
