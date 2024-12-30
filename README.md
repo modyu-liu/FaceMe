@@ -191,7 +191,7 @@ accelerate launch train.py \
 ```
 ## 📜 License
 
-This project is licensed under the Pi-Lab License 1.0 - see the LICENSE file for details.
+This project is licensed under the Pi-Lab License 1.0 - see the [LICENSE](https://github.com/modyu-liu/FaceMe/blob/main/LICENSE) file for details.
 
 ## :book: Citation
 
