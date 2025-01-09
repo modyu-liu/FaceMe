@@ -3,7 +3,7 @@
 <a href=''><img src='https://img.shields.io/badge/Paper-arxiv-b31b1b.svg'></a> &nbsp;&nbsp;
 <a href='https://modyu-liu.github.io/FaceMe_Homepage/'><img src='https://img.shields.io/badge/Project page-FaceMe-1bb41b.svg'></a> &nbsp;&nbsp;
 <a href='https://huggingface.co/datasets/thomas2modyu/FaceMe'><img src='https://img.shields.io/badge/Dataset-huggingface-ffff00.svg'></a> &nbsp;&nbsp;
-<a href=''><img src='https://img.shields.io/badge/Demo-huggingface-ffd700.svg'></a> &nbsp;&nbsp;
+<!-- <a href=''><img src='https://img.shields.io/badge/Demo-huggingface-ffd700.svg'></a> &nbsp;&nbsp; -->
 
 
 
