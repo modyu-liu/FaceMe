@@ -198,7 +198,11 @@ This project is licensed under the Pi-Lab License 1.0 - see the [LICENSE](https:
 If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{ 
+@inproceedings{liu2025faceme,
+  title={FaceMe: Robust Blind Face Restoration with Personal Identification},
+  author={Liu, Siyu and Duan, Zheng-Peng and OuYang, Jia and Fu, Jiayi and Park, Hyunhee and Liu, Zikun and Guo, Chunle and Li, Chongyi},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025}
 }
 ```
 
