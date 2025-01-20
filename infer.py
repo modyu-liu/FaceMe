@@ -24,26 +24,6 @@ from diffusers.utils import _get_model_file
 from safetensors import safe_open
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="FaceMe simple example.")
-    parser.add_argument("--pretrained_model_name_or_path", type=str)
-    parser.add_argument("--controlnet_model_name_or_path", type=str)
-    parser.add_argument("--mix_path", type=str)
-    parser.add_argument("--seed", type=int, default=233)
-    parser.add_argument("--input_dir", type=str, default=None)
-    parser.add_argument("--result_dir", type=str, default=None)
-    parser.add_argument("--ref_dir", type=str, default=None)
-    parser.add_argument("--pos_prompt", type=str, default='A photo of face.')
-    parser.add_argument("--neg_prompt", type=str, default='A photo of face.')
-    parser.add_argument("--key_word", type=str, default='face')
-    parser.add_argument("--color_correction", action="store_true", help="Enable color correction")
-    args = parser.parse_args()
-
-    assert args.key_word in args.pos_prompt
-
-    os.makedirs(args.result_dir, exist_ok=True)
-    return args
-
 def load_photomaker_adapter(
         pretrained_model_name_or_path_or_dict: Union[str, Dict[str, torch.Tensor]],
         weight_name: str,
